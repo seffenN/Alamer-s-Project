@@ -10,4 +10,9 @@ class StoreController extends Controller
     {
         return $this->render('ProductBundle:Store:Accueil.html.twig',array());
     }
+
+    public function contactAction()
+    {
+        return $this->render('ProductBundle:Store:Contact.html.twig',array());
+    }
 }

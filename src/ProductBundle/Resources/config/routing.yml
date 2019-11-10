@@ -4,3 +4,6 @@ product_homepage:
 Accueil:
     path:     /Accueil
     defaults: { _controller: ProductBundle:Store:index }
+Contact:
+    path:     /Contact
+    defaults: { _controller: ProductBundle:Store:contact }
