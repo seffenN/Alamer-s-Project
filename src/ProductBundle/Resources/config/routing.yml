@@ -1,0 +1,6 @@
+product_homepage:
+    path:     /
+    defaults: { _controller: ProductBundle:Default:index }
+Accueil:
+    path:     /Accueil
+    defaults: { _controller: ProductBundle:Store:index }
