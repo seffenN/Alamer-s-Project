@@ -1,0 +1,87 @@
+{% extends 'default/index.html.twig' %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+    <!-- Page Heading/Breadcrumbs -->
+    <h1 class="mt-4 mb-3">Animal Wealth
+        <small>List :</small>
+    </h1>
+
+    <ol class="breadcrumb">
+        <li class="breadcrumb-item">
+            <a href="{{ path('Accueil') }}">Home</a>
+        </li>
+        <li class="breadcrumb-item active">Animal Wealth</li>
+    </ol>
+
+    <div class="row">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/poulet.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Chicken</a>
+                </h4>
+                <p class="card-text">Chicken excelent quality</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/vache.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Meat</a>
+                </h4>
+                <p class="card-text">Meat in excelent quality (Beef, Sheep, ...)</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/animal/cows.jpg')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Cows</a>
+                </h4>
+                <p class="card-text">Cows</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/animal/sheep.jpg')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Sheeps</a>
+                </h4>
+                <p class="card-text">Sheeps</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/animal/goats.jpg')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Goats</a>
+                </h4>
+                <p class="card-text">Goats</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/animal/veal.jpg')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Veals</a>
+                </h4>
+                <p class="card-text">Veals</p>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}

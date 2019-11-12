@@ -26,10 +26,10 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
             <ul class="navbar-nav ml-auto">
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="{{ path('About') }}">About</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="services.html">Transportation</a>
+                    <a class="nav-link" href="{{ path('Transport') }}">Transportation</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="{{ path('Contact') }}">Contact</a>
@@ -39,23 +39,9 @@
                         Products
                     </a>
                     <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                        <a class="dropdown-item" href="portfolio-1-col.html">1 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-2-col.html">2 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-3-col.html">3 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                        <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
-                    </div>
-                </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownBlog" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Other Pages
-                    </a>
-                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownBlog">
-                        <a class="dropdown-item" href="full-width.html">Full Width Page</a>
-                        <a class="dropdown-item" href="sidebar.html">Sidebar Page</a>
-                        <a class="dropdown-item" href="faq.html">FAQ</a>
-                        <a class="dropdown-item" href="404.html">404</a>
-                        <a class="dropdown-item" href="pricing.html">Pricing Table</a>
+                        <a class="dropdown-item" href="{{ path('Metaux') }}">Metals</a>
+                        <a class="dropdown-item" href="{{ path('Animal') }}">Animal wealth</a>
+                        <a class="dropdown-item" href="{{ path('Foods') }}">Foods</a>
                     </div>
                 </li>
             </ul>
@@ -76,29 +62,29 @@
             <!-- Slide One - Set the background image for this slide in the line below -->
             <div class="carousel-item active" style="background-image: url({{ asset('bundles/Asset/images/fer_rond.png')}}">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Fer</h3>
-                    <p>This is a description for the first slide.</p>
+                    <h3>Metals</h3>
+                    <p>All Kind of irons are available</p>
                 </div>
             </div>
             <!-- Slide Two - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url({{ asset('bundles/Asset/images/poulet.png')}}">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Poulet</h3>
-                    <p>This is a description for the second slide.</p>
+                    <h3>Meats</h3>
+                    <p>All kind of Meat are available</p>
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url({{ asset('bundles/Asset/images/vache.png')}}">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Vache</h3>
-                    <p>This is a description for the third slide.</p>
+                    <h3>Meats</h3>
+                    <p>All kind of Meat are available</p>
                 </div>
             </div>
             <!-- Slide Three - Set the background image for this slide in the line below -->
             <div class="carousel-item" style="background-image: url({{ asset('bundles/Asset/images/gold.png')}}">
                 <div class="carousel-caption d-none d-md-block">
-                    <h3>Or</h3>
-                    <p>This is a description for the third slide.</p>
+                    <h3>Gold</h3>
+                    <p>Gold</p>
                 </div>
             </div>
         </div>

@@ -1,0 +1,30 @@
+{% extends 'default/index.html.twig' %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+    <h1 class="mt-4 mb-3">About
+    <small>The company</small>
+</h1>
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="{{ path('Accueil') }}">Home</a>
+    </li>
+    <li class="breadcrumb-item active">About</li>
+</ol>
+
+<!-- Intro Content -->
+<div class="row">
+    <div class="col-lg-6">
+        <img class="img-fluid rounded mb-4" src="{{ asset('bundles/Asset/images/transport/docs.jpg')}}" alt="">
+    </div>
+    <div class="col-lg-6">
+        <h2>About Al Amer S.A R.L.-S</h2>
+        <p>AL AMER S.A R.L.-S is authorized to exercise the following activity in the Grand Duchy of Luxembourg as a merchant:</p>
+        <p>commercial activities and services.</p>
+        <p>Transport of goods by road with vehicles of less than 3.5 Tonnes.</p>
+    </div>
+</div>
+
+{% endblock %}

@@ -7,3 +7,18 @@ Accueil:
 Contact:
     path:     /Contact
     defaults: { _controller: ProductBundle:Store:contact }
+Metaux:
+    path:     /Metaux
+    defaults: { _controller: ProductBundle:Store:meteaux }
+Animal:
+    path:     /Animal
+    defaults: { _controller: ProductBundle:Store:Animal }
+Foods:
+    path:     /Foods
+    defaults: { _controller: ProductBundle:Store:Foods }
+Transport:
+    path:     /Transport
+    defaults: { _controller: ProductBundle:Store:Transport }
+About:
+    path:     /About
+    defaults: { _controller: ProductBundle:Store:About }

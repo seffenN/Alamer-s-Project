@@ -1,0 +1,76 @@
+{% extends 'default/index.html.twig' %}
+{% block header %}
+{% endblock %}
+{% block content %}
+
+<!-- Page Heading/Breadcrumbs -->
+<h1 class="mt-4 mb-3">Metals
+    <small>List :</small>
+</h1>
+
+<ol class="breadcrumb">
+    <li class="breadcrumb-item">
+        <a href="{{ path('Accueil') }}">Home</a>
+    </li>
+    <li class="breadcrumb-item active">Metals</li>
+</ol>
+
+<div class="row">
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/metals/fer_rond.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Round iron</a>
+                </h4>
+                <p class="card-text">Round iron excelent quality</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/metals/rails.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">T iron</a>
+                </h4>
+                <p class="card-text">T iron excelent quality</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/metals/gold_bar.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Gold Bar</a>
+                </h4>
+                <p class="card-text">Gold Bar</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/metals/diamant.png')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Diamant</a>
+                </h4>
+                <p class="card-text">Diamant</p>
+            </div>
+        </div>
+    </div>
+    <div class="col-lg-4 col-sm-6 portfolio-item">
+        <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="{{ asset('bundles/Asset/images/metals/gemstones.jpg')}}" alt=""></a>
+            <div class="card-body">
+                <h4 class="card-title">
+                    <a href="#">Gemstones</a>
+                </h4>
+                <p class="card-text">All kind of Gemstones are available</p>
+            </div>
+        </div>
+    </div>
+
+
+{% endblock %}
